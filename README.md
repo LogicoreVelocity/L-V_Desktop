@@ -1,1 +1,1 @@
-# Class
+# Logicore-Velocity - Desktop app
