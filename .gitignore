@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+release/
+release-build/
+out/
+*.tsbuildinfo
+electron-builder.env
+
+# Local environment
+.env
+.env.*
+!.env.example
+*.local
+
+# Test and tooling output
+coverage/
+.vite/
+.cache/
+proof-run/
+
+# Local review / scratch files
+lead-search.txt
+payroll-search.txt
+structure-current.txt
+struture.txt
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Keep local command transcripts; commit only the redacted recovery summary.
+diagnostics_bundle/*
+!diagnostics_bundle/validation-summary.txt
